@@ -144,7 +144,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /*---Фильтр---*/
-.filter-link {
+.button-portfolio {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -155,7 +155,7 @@ body {
   cursor: pointer;
 }
 
-.filter-link:hover,
-.filter-link:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   background-color: #188CE8;
 }
