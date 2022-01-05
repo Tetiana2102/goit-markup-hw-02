@@ -1,0 +1,161 @@
+:root {
+  --header-color: #212121;
+  --color-text:#757575;
+  --accent-color:#2196F3;
+  --title-color:#FFFFFF;
+}
+body {
+  font-family:'Roboto',sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link, .link-tel, .link-email, .link-address {
+  text-decoration: none;
+}
+
+/*----Header----*/
+.header {
+  background-color: pink;
+}
+.header-link {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+.header-link:hover, 
+.header-link:focus,
+.header-email:hover,
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+
+}
+.header-email, .header-tel {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+/*--Шапка--*/
+.tagline {
+  background-color:#2F303A;
+}
+.tagline-text{
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.tagline-btn {
+  color: var(--title-color);
+  background: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.tagline-btn:hover,
+.tagline-btn:focus {
+  background-color: #188CE8;
+}
+
+
+/*---Список качеств---*/
+.feature-item {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.feature-text {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+
+/*--Фото чем мы занимаемся--*/
+.about-title {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+/*--Наша команда--*/
+.team-text {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+.team-name {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+.team-position {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+.footer-address-item {
+  background-color: #2F303A;
+}
+.link-address {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.link-email, .link-tel {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*---Фильтр---*/
+.filter-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+  background: #F5F4FA;
+  cursor: pointer;
+}
+
+.filter-link:hover,
+.filter-link:focus {
+  background-color: #188CE8;
+}
