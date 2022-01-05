@@ -4,13 +4,13 @@
   --accent-color:#2196F3;
   --title-color:#FFFFFF;
 }
-body {
-  font-family:'Roboto',sans-serif;
+.body {
+  font-family:'Roboto', sans-serif;
 }
 .list {
   list-style: none;
 }
-.link, .link-tel, .link-email, .link-address {
+.link {
   text-decoration: none;
 }
 
@@ -19,7 +19,6 @@ body {
   background-color: pink;
 }
 .header-link {
-  font-family: inherit;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.33;
@@ -36,7 +35,7 @@ body {
 
 }
 .header-email, .header-tel {
-  font-family: inherit;
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.33;
@@ -49,7 +48,6 @@ body {
   background-color:#2F303A;
 }
 .tagline-text{
-  font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -61,7 +59,6 @@ body {
 .tagline-btn {
   color: var(--title-color);
   background: var(--accent-color);
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -76,7 +73,6 @@ body {
 
 /*---Список качеств---*/
 .feature-item {
-  font-family: inherit;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -85,7 +81,6 @@ body {
   color: var(--header-color);
 }
 .feature-text {
-  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -94,7 +89,6 @@ body {
 
 /*--Фото чем мы занимаемся--*/
 .about-title {
-  font-family: inherit;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -104,7 +98,6 @@ body {
 }
 /*--Наша команда--*/
 .team-text {
-  font-family: inherit;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -112,7 +105,6 @@ body {
   color: var(--header-color);
 }
 .team-name {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -120,7 +112,6 @@ body {
   color: var(--header-color);
 }
 .team-position {
-  font-family: inherit;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -129,15 +120,15 @@ body {
 .footer-address-item {
   background-color: #2F303A;
 }
-.link-address {
-  font-family: inherit;
+.footer-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.link-email, .link-tel {
-  font-family: inherit;
+.footer-email, .footer-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -145,7 +136,6 @@ body {
 }
 /*---Фильтр---*/
 .button-portfolio {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
