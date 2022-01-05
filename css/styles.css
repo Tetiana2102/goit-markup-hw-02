@@ -35,7 +35,7 @@
 
 }
 .header-email, .header-tel {
-  font-style: normal;
+  font-style: normal
   font-weight: bold;
   font-size: 14px;
   line-height: 1.33;
@@ -151,4 +151,27 @@
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: #188CE8;
+}
+/*----Порфолио---*/
+.picture {
+  display: none;
+}
+.portfolio-list {
+  list-style: none;
+}
+.link-name {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2.00;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+.link-position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
 }
