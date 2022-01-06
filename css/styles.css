@@ -25,7 +25,6 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19; 
-  letter-spacing: 0.03em;
   color: var(--header-color);
 }
 .logo-web-header {
@@ -34,7 +33,6 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19; 
-  letter-spacing: 0.03em;
   color: #2196F3;
 
 }
@@ -98,7 +96,6 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
 }
@@ -106,7 +103,6 @@
   font-style: normal;
   font-weight: normal;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--color-text);
 }
 
@@ -116,7 +112,6 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--header-color);
 }
 /*--Наша команда--*/
@@ -124,7 +119,6 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: var(--header-color);
 }
 .team-name {
@@ -132,13 +126,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--header-color);
 }
 .team-position {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--color-text);
 }
 
@@ -153,7 +145,6 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19; 
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 .logo-web-footer {
@@ -169,14 +160,12 @@
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 .footer-contacts {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /*---Фильтр---*/
@@ -184,7 +173,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
   color: var(--header-color);
   background: #F5F4FA;
   cursor: pointer;
@@ -213,6 +201,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--color-text);
 }
