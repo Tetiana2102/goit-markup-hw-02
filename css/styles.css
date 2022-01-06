@@ -4,8 +4,9 @@
   --accent-color:#2196F3;
   --title-color:#FFFFFF;
 }
-.body {
+  body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -38,7 +39,6 @@
 
 }
 .header-link {
-  font-family: 'Roboto';
   font-weight: bold;
   font-size: 14px;
   line-height: 1.33;
@@ -53,7 +53,6 @@
 
 }
 .header-contacts {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -67,7 +66,6 @@
   background-color:#2F303A;
 }
 .tagline-text{
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -77,7 +75,6 @@
   color: var(--title-color);
 }
 .tagline-btn {
-  font-family: 'Roboto';
   color: var(--title-color);
   background: var(--accent-color);
   font-weight: 700;
@@ -97,7 +94,6 @@
   display: none;
 }
 .feature-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -107,7 +103,6 @@
   color: var(--header-color);
 }
 .feature-text {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   line-height: 1.71;
@@ -117,7 +112,6 @@
 
 /*--Фото чем мы занимаемся--*/
 .about-title {
-  font-family: 'Roboto';
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -127,7 +121,6 @@
 }
 /*--Наша команда--*/
 .team-text {
-  font-family: 'Roboto';
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -135,7 +128,6 @@
   color: var(--header-color);
 }
 .team-name {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -144,7 +136,6 @@
   color: var(--header-color);
 }
 .team-position {
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -175,7 +166,6 @@
   color: #2196F3;
 }
 .footer-address {
-  font-family: 'Roboto';
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -183,7 +173,6 @@
   color: var(--title-color);
 }
 .footer-contacts {
-  font-family: 'Roboto';
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -192,7 +181,6 @@
 }
 /*---Фильтр---*/
 .button-portfolio {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -214,7 +202,6 @@
   list-style: none;
 }
 .portfolio-subtitle {
-  font-family: 'Roboto';
   font-weight: normal;
   font-size: 18px;
   line-height: 2.00;
@@ -222,7 +209,6 @@
   color: var(--header-color);
 }
 .portfolio-text {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
